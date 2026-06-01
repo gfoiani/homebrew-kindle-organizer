@@ -24,7 +24,7 @@ The SHA-256 must be computed from the **DMG attached to the GitHub Release**
 ```bash
 # 1. Download the released DMG from the GitHub Release, e.g.
 curl -L -o /tmp/ko.dmg \
-  https://github.com/gfoiani/kindle-organizer/releases/download/v0.1.2/Kindle.Organizer-0.1.2-universal.dmg
+  https://github.com/gfoiani/kindle-organizer/releases/download/v0.2.0/Kindle-Organizer-0.2.0-universal.dmg
 
 # 2. From the app repo, let the script update this cask (HOMEBREW_DIR points here):
 #    cd ../app && yarn update-homebrew /tmp/ko.dmg
