@@ -2,7 +2,7 @@ cask "kindle-organizer" do
   version "0.2.0"
   sha256 "3ecd41a7314f6e6361975ecfcfec96a35539dd26d84c2c965a062c0926c716a2"
 
-  url "https://github.com/gfoiani/kindle-organizer/releases/download/v#{version}/Kindle.Organizer-#{version}-universal.dmg"
+  url "https://github.com/gfoiani/kindle-organizer/releases/download/v#{version}/Kindle-Organizer-#{version}-universal.dmg"
   name "Kindle Organizer"
   desc "Manage and organize your Kindle library"
   homepage "https://github.com/gfoiani/kindle-organizer"
