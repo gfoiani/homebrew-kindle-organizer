@@ -8,9 +8,16 @@ This directory contains a [Homebrew Cask](https://docs.brew.sh/Cask-Cookbook) fo
 # Add the tap
 brew tap gfoiani/kindle-organizer
 
+# Trust it — Homebrew 6 refuses to load casks from untrusted third-party taps
+brew trust --tap gfoiani/kindle-organizer
+
 # Install
 brew install --cask kindle-organizer
 ```
+
+Trusting just this cask works too:
+`brew trust --cask gfoiani/kindle-organizer/kindle-organizer`. Either way the choice is
+recorded in `~/.homebrew/trust.json` and is a one-time step (upgrades included).
 
 ## For maintainers
 
