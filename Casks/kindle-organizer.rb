@@ -1,6 +1,6 @@
 cask "kindle-organizer" do
-  version "0.4.0"
-  sha256 "624bc91fae66843359ee1fb2faa6bbf4444b904c8963a3f14f3b125186ac0cda"
+  version "0.5.0"
+  sha256 "29475187f03b0d8079898da0976f7e390a35b1d02e3574d872d552ae1215b5c7"
 
   url "https://github.com/gfoiani/kindle-organizer/releases/download/v#{version}/Kindle-Organizer-#{version}-universal.dmg"
   name "Kindle Organizer"
